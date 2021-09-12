@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav .logo a{
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 10px;
+}
+
+nav .menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+nav .menu ul li a{
+    text-decoration: none;
+    color: red;
+    margin: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+nav .menu ul i.icon{
+    width: 40px;
+    height: 40px;
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.container{
+    margin-top: 20px;
+}
+
+.container .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content .forum{
+    border: 1px solid black;
+    width: 70%;
+}
+
+.container .content .forum .autor p{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.container .content .forum .autor{
+    background-color: #EBEAEB;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container .content .forum .hora{
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #F5F4F6;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.container .content .forum .old-comment{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.container .content .forum .old-comment img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-left: 10px;
+    border: 3px solid #ccc;
+   
+}
+.container .content .forum .old-comment h3{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.container .content .forum .old-comment h3 span{
+    font-size: 12px;
+    color: #5a5a5a;
+    font-weight: 500;
+    margin-left: 8px;
+}
+.container .content .forum .old-comment .acomment-action{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
